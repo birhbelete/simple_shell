@@ -8,17 +8,17 @@
  */
 int c_t_size(char *str, char delm)
 {
-	int i = 0, num_delm = 0;
+	int i = 0, s_delm = 0;
 
 	while (str[i] != '\0')
 	{
 		if (str[i] == delm)
 		{
-			num_delm++;
+			s_delm++;
 		}
 		i++;
 	}
-	return (num_delm);
+	return (s_delm);
 }
 
 
