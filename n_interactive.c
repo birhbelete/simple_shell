@@ -23,7 +23,6 @@ void non_interactive(list_t *env)
 	char *cmd = NULL, *n_cmd = NULL, **n_line, **token;
 
 	i = get_line(&cmd);
-	printf("%s\n", cmd);
 	if (i == 0)
 	{
 		free(cmd);
